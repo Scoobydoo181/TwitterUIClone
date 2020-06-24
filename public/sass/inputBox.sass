@@ -1,0 +1,36 @@
+$fieldBackground: #192734
+    
+.loginForm .inputBox
+    position: relative
+    background-color: $fieldBackground
+    width: 350px
+    height: 60px
+    margin: 10px
+
+    p
+        color: $greyText
+        position: absolute
+        top: 0
+        left: 5px
+
+
+    input
+        color: white
+        background-color: $fieldBackground
+        width: 98%
+        height: 36px
+        border: none
+        position: absolute
+        bottom: 0
+        left: 0
+        font-size: 18px
+        padding-left: 5px
+        border-bottom: 2px solid #8899a6
+
+    input:focus
+        outline: none
+        border: none
+        border-bottom: 2px solid $twitterBlue
+
+        & + p
+            color: $twitterBlue

@@ -1,0 +1,41 @@
+@import 'inputBox'
+
+.loginForm
+    position: fixed
+    top: 64px
+    left: 415px
+    width: 375px
+    margin: 0 0 0 35%
+    border: 1px solid $borderColor 
+    border-radius: 10px
+
+    h3 
+        margin-left: 10px
+        padding-right: 20px
+
+    button, input, p, img
+        display: block
+        margin: auto
+
+    p:first-of-type:not(:only-of-type)
+        padding-left: 5px
+
+    p:last-of-type:not(:only-of-type)
+        text-align: center
+        color: $greyText
+    
+    p a
+        color: $twitterBlue
+        text-decoration: none
+
+    p a:hover 
+        text-decoration: underline
+
+    button
+        border-radius: 350px
+        width: 365px
+        margin-top: 10px
+        margin-bottom: 10px
+        height: 36px
+
+    
